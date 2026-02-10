@@ -13,13 +13,6 @@ This backend allows you to:
 * ✅ Generate a ranked leaderboard based on total sales and deals
 * ✅ Handle tie-breaking consistently
 
----
-
-## ⚡ Why Express.js?
-
-* **Simple & Easy**: No complex decorators or TypeScript
-* **Fast**: Lightweight and performant
-* **Industry Standard**: Widely used in Node.js applications
 
 ---
 
