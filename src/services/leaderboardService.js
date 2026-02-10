@@ -23,8 +23,10 @@ async function generateLeaderboard(page = 1, limit = 5) {
         };
       }
 
-      agentMap[agentName].totalSalesAmount += sale.amountSold;
-      agentMap[agentName].totalDeals += sale.salesCount;
+      agentMap[agentName].totalSalesAmount += Number(sale.amountSold);
+
+      console.log(sale.amountSold);
+      agentMap[agentName].totalDeals += Number(sale.salesCount);
     });
 
    
