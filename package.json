@@ -1,0 +1,31 @@
+{
+  "name": "sales-leaderboard-backend",
+  "version": "1.0.0",
+  "description": "Sales Leaderboard Backend created with Express.js and PostgreSQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "express",
+    "sales",
+    "leaderboard",
+    "rest-api"
+  ],
+  "author": "Raman Sapkota",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.4",
+    "express": "^4.18.2",
+    "pd": "^0.8.1",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
